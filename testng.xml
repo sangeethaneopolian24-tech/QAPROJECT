@@ -1,0 +1,9 @@
+<suite name="TestSuite">
+    <test name="AllTests">
+        <classes>
+            <class name="tests.HomePageTest"/>
+            <class name="tests.DreamDiaryTest"/>
+            <class name="tests.DreamSummaryTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]" verbose="0">
+  <test thread-count="5" name="AllTests(failed)" verbose="0">
+    <classes>
+      <class name="tests.DreamDiaryTest">
+        <methods>
+          <include name="validateDreamsData"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="validateDreamsCategories"/>
+          <include name="validateRowsCount"/>
+        </methods>
+      </class> <!-- tests.DreamDiaryTest -->
+      <class name="tests.DreamSummaryTest">
+        <methods>
+          <include name="validateDreamCounts"/>
+          <include name="tearDown"/>
+          <include name="validateRecurringDreamNames"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.DreamSummaryTest -->
+    </classes>
+  </test> <!-- AllTests(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
